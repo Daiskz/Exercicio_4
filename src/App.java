@@ -21,11 +21,11 @@ public class App
     {
         System.out.print("A");
     }   
-    else if(média >= 60 && média < 80)
+    else if (média >= 60 && média < 80)
     {
         System.out.print("B");
     }
-    else if(média>=40 && média<60)
+    else if (média >= 40 && média < 60)
     {
         System.out.print("C");
     }
