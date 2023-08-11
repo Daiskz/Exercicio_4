@@ -9,7 +9,7 @@ public class App
         float total = 0, média;
         try (Scanner entrada = new Scanner(System.in)) {
             for(i = 0; i < 4; i++) {
-                System.out.print("Digite a nota " + (i+1) +":");
+                System.out.print("Digite a nota " + (i+1) +": ");
                 notas [i] = entrada.nextInt();
                 total = total + notas [i];
    }
